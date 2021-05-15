@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,pow;
+	cin>>n>>pow;
+	if(pow%4==0)
+	    cout<<6<<"\n";
+	else if(pow%4==1)
+	    cout<<2<<"\n";
+    else if(pow%4==2)
+	    cout<<4<<"\n";
+	else if(pow%4==3)
+	    cout<<8<<"\n";
+	
+	return 0;
+}
