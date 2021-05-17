@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int p;
+    cin>>p;
+   cout<<((1 << p) | n)<<" ";
+   return 0;
+}
