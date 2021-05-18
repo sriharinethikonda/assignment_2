@@ -16,10 +16,12 @@ int main() {
 	  for(int i=t;i>=0;i--){
 	     int n;
 	      cin>>n;
-	      if(n==1)
-	       cout<<(1%m)<<"\n";
-	      else
-	          cout<<prefix[n]<<"\n";
+	      if(n==1||n==0)
+	       cout<<1<<"\n";
+	      else if(n>=100000)
+	          cout<<prefix[n]%m<<"\n";
+		 else 
+		 cout<<prefix[n]<<"\n";
 	  }
 	
 return 0;
